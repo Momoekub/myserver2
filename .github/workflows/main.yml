@@ -4,7 +4,7 @@ jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
-          -name:Checkout code
-           uses:actions/checkout@v2
-          -name: Print text from index.js
-           run:cat dist/index.js
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Print text from index.js
+        run: cat dist/index.js
