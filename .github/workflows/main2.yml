@@ -1,0 +1,13 @@
+name: main2
+on:
+  workflow_run:
+    workflows: ["main"]
+    types: 
+      - completed
+
+jobs: 
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: run print
+        run: echo "main2"
