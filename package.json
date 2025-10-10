@@ -1,5 +1,5 @@
 {
-  "name": "typescript",
+  "name": "myserver2",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,7 @@
     "express": "^5.1.0"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
     "@types/node": "^24.6.0",
     "nodemon": "^3.1.10",
