@@ -2,7 +2,7 @@ FROM node:18
 
 RUN mkdir -p/usr/scr/app
 WORKDIR /usr/scr/app
-COPY packege.json /usr/scr/app/
+COPY package.json /usr/scr/app/
 
 RUN npm install
 COPY . .
