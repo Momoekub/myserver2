@@ -5,7 +5,7 @@ WORKDIR /usr/scr/app
 COPY packege.json /usr/scr/app/
 
 RUN npm install
-COPY . /usr/scr/app/
+COPY . .
 
 EXPOSE 3000
 CMD ["npm","Start"]do
